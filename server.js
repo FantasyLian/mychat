@@ -1,14 +1,14 @@
 /*
  * @Author: Mr.cat
  * @Date: 2021-04-26 18:03:57
- * @LastEditTime: 2021-04-26 19:32:06
+ * @LastEditTime: 2021-04-27 13:58:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /mychat/server.js
  */
 const http = require('http')
 const Koa = require('koa')
-const io = require('socket.io')(http)
+const io = require('socket.io')
 const uuid = require('uuid-v4')
 const server = new Koa()
 
